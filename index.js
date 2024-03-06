@@ -56,7 +56,7 @@ console.log( `La longitud del arreglo frutas es ${longitudFrutas}` );
 
 // 12. Agregar elementos al final del array usando push():
 
-frutas.push( 'Naranja', 'Mango' )
+frutas.push( 'Naranja', 'Mango' );
 console.log(frutas);
 
 // 13. Eliminar el último elemento del array usando pop():
@@ -69,15 +69,19 @@ nombres.unshift('Julian', 'Santiago');
 console.log(nombres);
 
 // 15. Eliminar el primer elemento del array usando shift():
-nombres.shift()
+nombres.shift();
 console.log(nombres);
 
 // 16. Obtener una porción del array usando slice():
 console.log(nombres.slice( 2, 5 ));
 
 // 17. Convertir un array en un string usando join():
-let arraySaludo = [ 'H', 'o', 'l', 'a' ].join('')
+let arraySaludo = [ 'H', 'o', 'l', 'a' ].join('');
 console.log(arraySaludo);
 
-// 18. Obtener una subsección del array desde un índice negativo usando slice() :
+// 18. Obtener una subsección del array desde un índice negativo usando slice():
 console.log(nombres.slice(-2));
+
+// 19. Eliminar una porción del array sin modificar el original usando slice():
+const nuevosNombres = nombres.slice( 1, 3 );
+console.log(nuevosNombres);
