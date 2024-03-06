@@ -85,3 +85,8 @@ console.log(nombres.slice(-2));
 // 19. Eliminar una porción del array sin modificar el original usando slice():
 const nuevosNombres = nombres.slice( 1, 3 );
 console.log(nuevosNombres);
+
+// 20. Agregar múltiples elementos al principio del array usando unshift() con spread operator ( ... ):
+const nombresFemeninos = ['Maria', 'Camila', 'Valentina', 'Karen']
+nombresFemeninos.unshift( ...nombres )
+console.log(nombresFemeninos);
