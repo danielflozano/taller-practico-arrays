@@ -25,3 +25,7 @@ console.log(rango (-2, 3, 1));
 const arr1 = new Array( 4 )
 arr1.fill( 7 )
 console.log(arr1);
+
+// 7. Crear un array a partir de una cadena de texto usando el método String.split():
+const cadenaTexto = 'Daniel, Jorge, Diego, José, Miguel';
+console.log( cadenaTexto.split( ', ' ) );
