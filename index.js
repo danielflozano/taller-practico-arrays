@@ -65,5 +65,9 @@ nombres.pop();
 console.log(nombres);
 
 // 14. Agregar elementos al principio del array usando unshift():
-nombres.unshift('Julian', 'Santiago')
+nombres.unshift('Julian', 'Santiago');
+console.log(nombres);
+
+// 15. Eliminar el primer elemento del array usando shift():
+nombres.shift()
 console.log(nombres);
