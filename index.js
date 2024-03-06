@@ -37,3 +37,15 @@ console.log(combinacionArrays);
 // 9. Crear un array con valores únicos utilizando el método Set() y el operador spread ( ... ):
 const numeros = [ 1, 2, 4, 8, 12, 20, 1, 2, 44, 12, 20 , 70]
 console.log( [...new Set ( numeros )] );
+
+// 10. Crear un array con una función que genere valores dinámicamente:
+const generarArray = ( numElementos ) => {
+    let array = [];
+    for( let i = 0 ; i < numElementos ; i++ ) {
+        const valor = Math.floor( Math.random() * 100 );
+        array.push(valor);        
+    }
+    return array
+}
+const miArray = generarArray( 5 );
+console.log(miArray);
