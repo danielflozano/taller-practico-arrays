@@ -34,3 +34,6 @@ console.log( cadenaTexto.split( ', ' ) );
 const combinacionArrays = [ ...frutas, ...cadenaTexto.split( ', ' ) ];
 console.log(combinacionArrays);
 
+// 9. Crear un array con valores únicos utilizando el método Set() y el operador spread ( ... ):
+const numeros = [ 1, 2, 4, 8, 12, 20, 1, 2, 44, 12, 20 , 70]
+console.log( [...new Set ( numeros )] );
