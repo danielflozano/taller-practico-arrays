@@ -52,4 +52,9 @@ console.log(miArray);
 
 // 11. Obtener la longitud de un array:
 const longitudFrutas = frutas.length;
-console.log( `la longitud del arreglo Frutas es ${longitudFrutas}` );
+console.log( `La longitud del arreglo frutas es ${longitudFrutas}` );
+
+// 12. Agregar elementos al final del array usando push():
+
+frutas.push( 'Naranja', 'Mango' )
+console.log(frutas);
