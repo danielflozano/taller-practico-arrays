@@ -58,3 +58,8 @@ console.log( `La longitud del arreglo frutas es ${longitudFrutas}` );
 
 frutas.push( 'Naranja', 'Mango' )
 console.log(frutas);
+
+// 13. Eliminar el último elemento del array usando pop():
+const nombres = ['Daniel', 'Jorge', 'Jose', 'Miguel', 'Felipe'];
+nombres.pop();
+console.log(nombres);
