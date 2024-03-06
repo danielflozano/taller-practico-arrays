@@ -45,7 +45,11 @@ const generarArray = ( numElementos ) => {
         const valor = Math.floor( Math.random() * 100 );
         array.push(valor);        
     }
-    return array
+    return array;
 }
 const miArray = generarArray( 5 );
 console.log(miArray);
+
+// 11. Obtener la longitud de un array:
+const longitudFrutas = frutas.length;
+console.log( `la longitud del arreglo Frutas es ${longitudFrutas}` );
