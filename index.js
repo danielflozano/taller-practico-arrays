@@ -71,3 +71,6 @@ console.log(nombres);
 // 15. Eliminar el primer elemento del array usando shift():
 nombres.shift()
 console.log(nombres);
+
+// 16. Obtener una porción del array usando slice():
+console.log(nombres.slice( 2, 5 ));
