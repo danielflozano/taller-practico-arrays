@@ -74,3 +74,7 @@ console.log(nombres);
 
 // 16. Obtener una porción del array usando slice():
 console.log(nombres.slice( 2, 5 ));
+
+// 17. Convertir un array en un string usando join():
+let arraySaludo = [ 'h', 'o', 'l', 'a' ].join('')
+console.log(arraySaludo);
