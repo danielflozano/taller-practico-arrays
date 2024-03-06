@@ -63,3 +63,7 @@ console.log(frutas);
 const nombres = ['Daniel', 'Jorge', 'Jose', 'Miguel', 'Felipe'];
 nombres.pop();
 console.log(nombres);
+
+// 14. Agregar elementos al principio del array usando unshift():
+nombres.unshift('Julian', 'Santiago')
+console.log(nombres);
